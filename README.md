@@ -15,6 +15,10 @@
     <img src="https://img.shields.io/badge/Vite-6-purple?style=flat-square&logo=vite" alt="Vite 6" />
     <img src="https://img.shields.io/badge/Chrome-Extension-green?style=flat-square&logo=googlechrome" alt="Chrome Extension" />
   </p>
+
+  <p>
+    <a href="https://docsense-ai-mu.vercel.app/login"><strong>🌐 Live Demo (DocSense AI Dashboard)</strong></a>
+  </p>
 </div>
 
 <br />
