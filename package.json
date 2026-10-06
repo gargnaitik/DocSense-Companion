@@ -1,0 +1,30 @@
+{
+  "name": "docsense-companion",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI-Powered Knowledge Capture Extension for DocSense AI",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build.mjs",
+    "build:popup": "vite build",
+    "build:background": "npx esbuild src/background/index.ts --bundle --outfile=dist/background.js --format=esm --target=esnext",
+    "build:content": "npx esbuild src/content/index.ts --bundle --outfile=dist/content.js --format=iife --target=esnext"
+  },
+  "dependencies": {
+    "jimp": "^1.6.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "@types/chrome": "^0.0.304",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.5.0",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.8.0",
+    "vite": "^6.3.0"
+  }
+}
