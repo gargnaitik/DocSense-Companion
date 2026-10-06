@@ -5,13 +5,13 @@
 import type { ExtensionSettings } from '../types';
 
 /** Production backend URL */
-export const DEFAULT_BACKEND_URL = 'https://docsense-ai-g6s4.onrender.com';
+export const DEFAULT_BACKEND_URL = 'https://docsense-ai-backend-4mht.onrender.com';
 
 /** Production frontend URL */
-export const DEFAULT_FRONTEND_URL = 'https://docsense-ai-mu.vercel.app';
+export const DEFAULT_FRONTEND_URL = 'https://doc-sense-ai-three.vercel.app';
 
 /** Default Dashboard URL */
-export const DEFAULT_DASHBOARD_URL = 'https://docsense-ai-mu.vercel.app';
+export const DEFAULT_DASHBOARD_URL = 'https://doc-sense-ai-three.vercel.app';
 
 // ====== Storage Keys ======
 

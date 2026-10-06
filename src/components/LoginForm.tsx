@@ -73,7 +73,7 @@ export default function LoginForm({ onLogin, error }: Props) {
           
           <div className="text-center mt-4">
             <a 
-              href="https://docsense-ai-mu.vercel.app/register" 
+              href="https://doc-sense-ai-three.vercel.app/register" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-xs text-primary hover:text-indigo-600 transition-colors font-medium"
